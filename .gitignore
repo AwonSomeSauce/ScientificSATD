@@ -1,0 +1,9 @@
+# Ignore specific folders
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+env/
+
+# Ignore all CSV files
+*.csv
