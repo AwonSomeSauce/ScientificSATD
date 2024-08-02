@@ -133,5 +133,5 @@ directories = [
 
 for directory, tag in directories:
     analyze_git_directory(directory, tag)
-save_defaultdict_to_csv("all_new_projects_comments.csv")
-save_errors_to_csv("all_new_projects_errors.csv")
+save_defaultdict_to_csv("all_projects_comments.csv")
+save_errors_to_csv("all_projects_errors.csv")
