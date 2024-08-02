@@ -47,43 +47,48 @@ python identify_satd.py
 
 ### Step 4: Manual Elimination of Non-SATD Comments
 
-After filtering potential SATD comments, manually review the dataset to eliminate non-SATD comments. This step ensures the accuracy of the SATD identification process.
+Manually eliminate non-SATD comments from the filtered dataset.
 
-### Step 5: Analysis
+### Step 5: Manual Categorization and Labeling
 
-Analyze the refined dataset using the `analysis.ipynb` Jupyter Notebook. This notebook contains all the analysis steps and visualizations used in the study.
+Manually categorize all comments, assign them appropriate categories, and identify indicators for all Scientific Debt categories. Store these labeled comments in `ssw_satd.csv`.
+
+### Step 6: Analysis
+
+Perform the analysis using `analysis.ipynb`, which utilizes the data stored in `ssw_satd.csv`.
 
 ```bash
 jupyter notebook analysis.ipynb
 ```
 
-### Step 6: Extract Closed Issues
+### Step 7: Extract Closed Issues
 
-For LLM predictions, extract closed issues from the `ESCOMP/CTSM` repository using the `extract_closed_issues.py` script.
+Extract closed issues from `ESCOMP/CTSM` using `extract_closed_issues.py`.
 
 ```bash
 python extract_closed_issues.py
 ```
 
-### Step 7: Send Batch Requests to GPT-4
+### Step 8: Send Batch Requests to GPT-4
 
-Send a batch request to GPT-4 using the `send_gpt_request.py` script. This script processes the issues and sends them to the GPT-4 API for predictions.
+Send a batch request to GPT-4 using `send_gpt_request.py`.
 
 ```bash
 python send_gpt_request.py
 ```
 
-### Step 8: Analyze GPT-4 Predictions
+### Step 9: Collect and Check Results
 
-After the batch process is completed, analyze the results using the `analyze_gpt_predictions.py` script.
+After the batch process is completed, collect and check the results using `analyze_gpt_predictions.py`.
 
 ```bash
 python analyze_gpt_predictions.py
 ```
 
-## Zenodo DOI
+## Data Description
 
-The labelled dataset associated with this study can be accessed at [Zenodo](https://doi.org/10.5281/zenodo.13174322).
+-   **ssw_satd.csv**: Contains all labelled SATD comments from the target repositories.
+-   **satd_features.txt**: List of keywords used to identify potential SATD comments.
 
 ## Contact
 

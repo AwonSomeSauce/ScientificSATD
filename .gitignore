@@ -2,8 +2,11 @@
 __pycache__/
 .ipynb_checkpoints/
 .vscode/
-.DS_Store
 env/
+.DS_Store
 
 # Ignore all CSV files
 *.csv
+
+# But do not ignore ssw_satd.csv
+!ssw_satd.csv
