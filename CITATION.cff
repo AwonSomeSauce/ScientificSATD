@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite it using the metadata below."
+title: "Replication Package for SATD Analysis in Scientific Software"
+type: software
+license: MIT
+authors:
+  - family-names: "Awon"
+    given-names: "Ahmed Musa"
+    email: "its.ahmed.musa@gmail.com"
+  - family-names: "Ernst"
+    given-names: "Neil"
+    email: "neil.ernst@gmail.com"
+  - family-names: "Hingmire"
+    given-names: "Swapnil"
+  - family-names: "Li"
+    given-names: "Ze Shi"
+repository-code: "https://github.com/AwonSomeSauce/ScientificSATD"
+url: "https://github.com/AwonSomeSauce/ScientificSATD"
+abstract: "Replication package containing scripts, data, and qualitative materials for analyzing self-admitted technical debt in scientific software."
+preferred-citation:
+  type: article
+  title: "The Nature of Technical Debt in Research Software"
+  authors:
+    - family-names: "Ernst"
+      given-names: "Neil A."
+    - family-names: "Awon"
+      given-names: "Ahmed Musa"
+    - family-names: "Hingmire"
+      given-names: "Swapnil"
+    - family-names: "Li"
+      given-names: "Ze Shi"
+  journal: "arXiv"
+  volume: "arXiv:2603.20415"
+  year: 2026
+  date-released: 2026-03-20
+  doi: 10.48550/arXiv.2603.20415
+  url: "https://arxiv.org/abs/2603.20415"

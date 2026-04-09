@@ -97,7 +97,10 @@ python analyze_gpt_predictions.py
 -   **ssw_satd.csv**: Contains all labelled SATD comments from the target repositories.
 -   **satd_features.txt**: List of keywords used to identify potential SATD comments.
 
+## License
+
+This repository is released under the MIT License. See the `LICENSE` file in the repository root for details.
+
 ## Contact
 
 For any questions or issues, please contact Neil Ernst (https://neilernst.net).
-
