@@ -1,0 +1,120 @@
+name,description,source
+cause, codes around causes or sources of TD,
+cause-bad planning, org is not planning out the development coherently,[@Rios_2018]
+cause-business-evo,business evolution causes TD,[@Martini_2014]
+cause-business-priority, priority of features over maintenance - refactoring less important,[@Martini_2014]
+cause-business-separate,separation of development budget and sustainment budget,[@Martini_2014]
+cause-business-time, time pressure ,[@Martini_2014]
+cause-code-deprecated libraries,,[@ernst2021technical]
+cause-code-duplicated code,,[@ernst2021technical]
+cause-code-inefficiency,,[@ernst2021technical]
+cause-code-style,TD from source code,[@Alves_2016]
+cause-deploy-manual/no staging,,[@ernst2021technical] 
+cause-deploy-poor observability,,[@ernst2021technical] 
+cause-deploy-single velocity,,[@ernst2021technical] 
+cause-design-clone and own,,[@ernst2021technical] 
+cause-design-improper separation of concerns,,[@ernst2021technical] 
+cause-design-tangled dependencies,,[@ernst2021technical] 
+cause-design-unplanned evolution,,[@ernst2021technical] 
+cause-docs-arch,Docs do not cover critical architecture requirements, [@Martini_2014] 
+cause-docs-devs answer questions,,[@ernst2021technical] 
+cause-docs-docs not traceable,,[@ernst2021technical] 
+cause-docs-docs outdated,,[@ernst2021technical] 
+cause-effect, effect uncertainty - ATD is not easy to isolate, [@Martini_2014] 
+cause-social-human, human factor - humans make mistakes and cause TD, [@Martini_2014] 
+cause-incomplete, incomplete refactoring - TD is left and not all removed, [@Martini_2014] 
+cause-lack of knowledge, didn't know enough (that we should have known), [@Rios_2018] 
+cause-non-adoption of good practices, we just aren't doing the best thing, [@Rios_2018] 
+cause-parallel, parallel development - teams drift , [@Martini_2014] 
+cause-process, process Models - ATD crisis management, [@Martini_2014] [@Rios_2018]
+cause-req-ignorance of requirements,,[@ernst2021technical] [@Alves_2016]
+cause-req-poor/no elicitation,uncertain use cases/requirements business-early,[@Martini_2014][@ernst2021technical] 
+cause-reuse,Reuse of legacy or COTS with TD, [@Martini_2014] 
+cause-social-cognitive distance, peers have perceived differences due to background or tech skill,[@ernst2021technical] 
+cause-social-newbie free-riding, newcomers are left to fend for themselves,[@ernst2021technical] 
+cause-social-silos, org has hard to connect silos (including outside orgs),[@ernst2021technical] 
+cause-social-time warp, communication is perceived as easier and faster than actuality,[@ernst2021technical] 
+cause-techevo, tech evolution - reliance on legacy hardware or software - including dependency changes-me, [@Martini_2014] 
+cause-test-flaky or slow,,[@ernst2021technical] 
+cause-test-lack of tests,,[@ernst2021technical] 
+cause-test-poor coverage,,[@ernst2021technical] 
+context-team-size, explains the project context in FTEs, de novo
+context-tools, tools used in the porject like Slack, de novo
+context-paralellism, the project needs HPC or relies on hardware, de novo
+context-domain-complex, "the project's domain is inherently challenging in the domain (science math engineering)", de novo
+context-code-structure, "Statements about how the code is architectured/designed that are not quality judgments", de novo
+context-model-vs-predict, "the project is about understanding a phenomenon, or making a prediction without understanding", de novo
+open-science, "the value of knowing what the tools are doing, to the extent people care about this or not", de novo
+context-code-age, "Statements about the project's age or age differences", de novo
+context-example, "examples of the project in action", de novo
+context-teamsize, "describes team member numbers or organization", de novo
+context-parallelism, "Statements about how the project uses, or relies on, knowledge of parallel computing", de novo
+context-teamstructure, "comments on how the project team is organized", de novo
+context-newfeatures, new features are added to teh code indpendent of the TD in the project, de novo
+domain-knowledge-high, trained as an expert in the domain, de novo
+domain-knowledge-low, not a domain expert, de novo
+interest, codes addressing consequences of TD,
+interest-delivery delay, TD manifests as slower releases,[@Rios_2018]
+interest-financial loss, ,[@Rios_2018]
+interest-science, scientific accuracy suffers as a result of TD, de novo
+interest-indicator-architecture issues, ,[@Alves_2016]
+interest-indicator-code smells, TD is causing a higher number of code smells,[@Alves_2016]
+interest-indicator-satd, SATD is present (unclear if this is interest...), de novo
+interest-indicator-doc issues, TD is causing documentation problems,[@Alves_2016]
+interest-indicator-modularity violations,,[@Alves_2016]
+interest-indicator-static analysis issues,,[@Alves_2016]
+interest-low maintainability,,[@Rios_2018]
+interest-low quality,,[@Rios_2018]
+interest-rework, work that has to be re-done or fixed after release,[@Rios_2018]
+interest-team demotivation,,[@Rios_2018]
+nfr-accuracy,,
+nfr-performance, performance NFR,
+nfr-portability, porting or using the code on differenet platforms,
+nfr-science-impact, the quality of the project that enhances sicentific impact, de novo
+nfr-usability,,
+nfr-science-impact, discussions where science impact is explicitly mentioned or paramount, de novo
+payment-writedocs, pay off debt by writing/rewriting docs, de novo
+payment-refactor, pay off debt by a small refactoring, de novo
+process-payments, describes how the project handles payments or compensation for the work done, de novo
+context-team-structure, talks about the organization of the project and how that influences decisions, de novo
+process-mentoring, team uses mentoring,
+process-incremental, the project/process is focused on incremental changes, de novo
+process-bigbang, the project/process needed a one off redesign, de novo
+process-testing, how the project does testing, de novo
+project-goal, Goals of the project or indicators of success, de novo
+rse-complex, the project is inherently challenging in a software context (libraries or tools), de novo
+rse, concepts around the persona of the RSE, de novo
+rse-code-skill-high, high degree of competence with non domain knowledge like code or CI, de novo
+rse-code-skill-low, lacks code skill, de novo
+rse-pain, concepts around pain points RSEs experience, [@Pinto2018HowDoScientists]
+rse-pain-collaborate, hard to collaborate on software project due to credit issues (and org structures-NE),[@Pinto2018HowDoScientists]
+rse-pain-cross, cross platform compatibility problems,[@Pinto2018HowDoScientists]
+rse-pain-docs, poor docs,[@Pinto2018HowDoScientists]
+rse-pain-interruptions,interruptions while coding,[@Pinto2018HowDoScientists]
+rse-pain-lack of time, lack of time to write code,[@Pinto2018HowDoScientists]
+rse-pain-mismatch, mismatch between coding and domain skills,[@Pinto2018HowDoScientists]
+rse-pain-reward, lack of formal reward (publications),[@Pinto2018HowDoScientists]
+rse-pain-scope, scope bloat,[@Pinto2018HowDoScientists]
+rse-pain-solitary, a lot of RSEs are alone,[@Pinto2018HowDoScientists]
+rse-pain-user, lack of user feedback on value of what is coded,[@Pinto2018HowDoScientists]
+rse-personal, a personal project, de novo
+rse-training, the RSE is doing the work or started the work as part of education or a code about how they got trained,de novo
+shared-accountability, the project works together on the scientific results, de novo
+program-comprehension, "how to understand the code or prevented from understanding ", de novo
+nfr-maintainability, , de novo
+context-code-size, comments about the size of the codebase aside from age, de novo
+interest-testing, testing is difficult due to difficulty or lack of testing, de novo
+payment-donottouch, TD that exists and is resolved by not doing anything to it - including forcing users to change instead, de novo
+process-model-use, Describes how a user or the model is actually used for the science, de novo
+interest-portability, interest payments from not being easy to deploy to other machines/places, de novo
+context-model-versions, use different complexities of a model product line to reflect the tradeoff with the science; both temporal versions and different products , de novo
+interest-indicator-data-management, interest payments in making data storage and extraction more difficult, de novo
+context-multiple-codes, There are split or diverging forks/duplicates of the same functionality impacting the project, de novo
+cause-licencing, TD caused by licensing or IP issues that result in forks or unmergeable code, de novo
+context-ml, Describes where ML or AI has been discussed as a way to simplify code that is more analytical , de novo
+context-dogfooding, Users are developers and vice versa, de novo
+cause-hardware-coupled, The software works on one instrument but not easily ported to another , de novo
+standards, use of or inclusion of standards in the code such as IVOA or WWW, de novo
+rse-scientific, Kelly's scientific knowledge domain necessary, de novo
+nfr-tradeoff, Choosing an NFR implies less priority for another one(s), de novo
+context-data-analysis, the problem is around code for data analysis, de novo

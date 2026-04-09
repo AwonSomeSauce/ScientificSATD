@@ -6,10 +6,17 @@ This replication package contains all the necessary scripts, data, and instructi
 
 This repository includes:
 
+### quaN
 1. Scripts to clone target repositories and extract code comments.
 2. Tools to identify potential SATD comments.
 3. Analysis scripts and Jupyter Notebooks.
 4. Scripts for LLM predictions on closed issues.
+
+### QuaL
+1. Codebook for the quaL study (codebook-taguette.csv) and raw counts (codebook-count.xlsx)
+2. Interview script
+3. (on publication) anonymized transcripts
+4. (on publication) Taguette coding Sqlite DB
 
 ## Requirements
 
@@ -17,7 +24,7 @@ This repository includes:
 -   Git
 -   Required Python libraries: `pandas`, `numpy`, `openai`, `tqdm`, `scipy`
 
-## Steps to Replicate the Study
+## Steps to Replicate the QuaN Study
 
 ### Step 1: Clone Target Repositories
 
@@ -92,8 +99,5 @@ python analyze_gpt_predictions.py
 
 ## Contact
 
-For any questions or issues, please contact Ahmed Musa Awon at ahmedmusa@uvic.ca.
+For any questions or issues, please contact Neil Ernst (https://neilernst.net).
 
----
-
-This README provides a comprehensive guide to replicating our study on SATD in scientific software. Follow the steps carefully to ensure accurate replication of our methodology and results.
